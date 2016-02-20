@@ -16,6 +16,14 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	</properties>
 
+	<distributionManagement>
+		<snapshotRepository>
+			<id>jsmith-snapshot</id>
+			<name>jsmith-snapshot</name>
+			<url>http://jsmith-rs.ddns.net:8081/artifactory/plugins-snapshot-local</url>
+		</snapshotRepository>
+	</distributionManagement>
+
 	<dependencies>
 		<dependency>
 			<groupId>org.apache.maven</groupId>
